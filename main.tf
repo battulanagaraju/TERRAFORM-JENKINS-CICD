@@ -1,4 +1,4 @@
-resource "aws_instance" "Ajay" {
+resource "aws_instance" "nagaraju_jenkins" {
   ami                    = var.ami_id
   instance_type          = var.instance_type
   key_name               = var.key_name
